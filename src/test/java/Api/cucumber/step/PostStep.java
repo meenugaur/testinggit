@@ -14,6 +14,7 @@ public class PostStep {
     @When("I type the massage in the text box")
     public void iTypeTheMassageInTheTextBox() {
         System.out.println("Hi");
+        System.out.println("I am using feature branch");
     }
 
     @And("Click on post button")
